@@ -1,4 +1,5 @@
 import React from "react";
+import PersistentDrawerLeft from "./components/MaterialDrawer";
 import MaterialUI from "./components/MaterialUI";
 // import Bootstrap from "./components/Bootstrap";
 // import Bulma from "./components/Bulma";
@@ -12,6 +13,7 @@ function App() {
       {/* <Bulma /> */}
       {/* <ReactBootstrap /> */}
       <MaterialUI />
+      <PersistentDrawerLeft />
     </div>
   );
 }
